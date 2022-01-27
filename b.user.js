@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         bilibili视频下载
+// @name         bilibili
 // @namespace    https://github.com/injahow
 // @version      1.8.7
-// @description  支持Web、RPC、Blob、Aria等下载方式；支持flv、dash、mp4视频格式；支持下载港区番剧；支持会员下载；支持换源播放，自动切换为高清视频源
+// @description 
 // @author       injahow
 // @source       https://github.com/injahow/bilibili-parse
 // @copyright    2021, injahow (https://github.com/injahow)
