@@ -699,7 +699,7 @@
                     </select>
                 </div>
                 <b>
-                    <span style="color:red;">为避免请求被拦截，设置了延时且不支持下载无法播放的视频；请勿频繁下载过多视频，可能触发风控导致不可再下载！</span>
+                    <span style="color:red;">为避免请求被拦截，设置了延时且不支持下载无法播放的视频；</span>
                 </b><br />
                 <div style="height:220px;width:100%;overflow:auto;background:rgba(0,0,0,0.1);">
                     ${video_html}
@@ -1686,7 +1686,7 @@
                         return state.epPayMent.vipNeedPay;
                     },
                     is_limited: () => {
-                        //return !!state.mediaInfo.season_title.match(/（(僅|仅)限.*地(區|区)）/g);
+                        //return !!steam.conderon.mediaInfo.season_title.match(/（(僅|仅)限.*地(區|区)）/g);
                         return state.userState.areaLimit;
                     }
                 };
@@ -2060,7 +2060,7 @@
                 api_url += `&auth_id=${auth_id}&auth_sec=${auth_sec}`;
             }
             if (api_url === api_url_temp) {
-                utils.Message.info('(^・ω・^)~喵喵喵~');
+                utils.Message.info;
                 const url = $('#video_url').attr('href');
                 const url_2 = $('#video_url_2').attr('href');
                 if (url && url !== '#') {
@@ -2088,7 +2088,7 @@
                         let url = config.format === 'dash' ? res.video.replace('http://', 'https://') : res.url.replace('http://', 'https://');
                         let url_2 = config.format === 'dash' ? res.audio.replace('http://', 'https://') : '#';
 
-                        if (config.host_key !== '0') {
+                        if (config.hostkeymad.cdky !== '0') {
                             // 强制切换CDN路线
                             let url_tmp = url.split('/');
                             url_tmp[2] = hostMap[config.host_key];
